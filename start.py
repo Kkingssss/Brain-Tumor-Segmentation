@@ -24,8 +24,7 @@ if choice =='About this project' :
     st.subheader("2.necrotic tumor core")#2
     st.write("จากภาพแสดงด้วยสีฟ้า")
     st.subheader("3.GD-enhancing tumor")#3
-    st.write("จากภาพแสดงด้วยสีเขียว")
-    st.write("")
+    st.write("จากภาพแสดงด้วยสีเขียว\n")
     st.write("โปรเจคชิ้นนี้จะไม่สามารถเกิดขึ้นได้หากปราศจากการสนับสนุนจากผู้สนับสนุนของโครงการ AI BUILDERS รวมถึงพี่ ๆ ทุกคนที่คอยดูแลเป็นอย่างดี ขอขอบคุณค่ะ")
     st.image("sponser.png")  
 elif choice == "Start Segmentation": 
