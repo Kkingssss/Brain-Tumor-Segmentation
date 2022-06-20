@@ -39,5 +39,6 @@ elif choice == "Start Segmentation":
         st.write(file_details)
         st.write('โปรดรอสักพัก จะมีการตอบกลับไปทาง : ', title)
         st.write('ขอบคุณค่ะ')
+        st.write('\nหมายเหตุ *** เป็นเพียงแค่แบบจำลอง เนื่องจากข้อจำกัดของ GPU ที่จำเป็นต้องใช้เพื่อ inference จึงไม่สามารถ deploy ได้')
          
 st.sidebar.write('If you have encounter issues, please contact at nattawadee.lee@gmail.com')
