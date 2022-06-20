@@ -13,6 +13,7 @@ choice = st.sidebar.selectbox("Select Activty",activities)
 if choice =='About this project' :
 
     st.subheader("About my project")
+    st.subheader("สามารถอ่านเพิ่มเติมได้ทาง https://medium.com/@nattawadee.lee/brain-tumor-segmentation-using-swin-unet-transformers-d003cbe7ba0f ")
     st.title("Brain tumor segmentation")
     st.write("Artificial intelligence (AI) นั้นเริ่มมีบทบาทสำคัญต่อหลากหลายสาขาอาชีพ ซึ่งหนึ่งในนั้นก็คือหน่วยงานด้านการแพทย์ โดยได้มีการเปิดรับเอาเทคโนโลยี AI และ Robotics มาใช้ประโยชน์มากขึ้นเรื่อย ๆ เพื่อประหยัดเวลาและอำนวยความสะดวกให้กับบุคลากรทางการแพทย์มากยิ่งขึ้น")
     st.write("brain tumor segmentation ในโปรเจคนี้จะทำการแบ่งเป็น 3 ส่วน ซึ่งประกอบด้วย ")
