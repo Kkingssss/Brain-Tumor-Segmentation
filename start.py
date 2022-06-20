@@ -31,28 +31,14 @@ if choice =='About this project' :
 elif choice == "Start Segmentation": 
     st.subheader("please put your email ")
     title = st.text_input('Your email : ', '')
-   
     st.subheader("please upload ")
     image_file = st.file_uploader("Upload Images", type=[".nrrd",".nii",".vti",".mhd"])
     if image_file is not None:
-        # To See details 
-       
         image_file.seek(0)
         file_details = {"filename":image_file.name, "filetype":image_file.type,"filesize":image_file.size}
         st.write('file details : ')
         st.write(file_details)
         st.write('โปรดรอสักพัก จะมีการตอบกลับไปทาง : ', title)
         st.write('ขอบคุณค่ะ')
-    
-        
-checkpoint_path = ""           
+         
 st.sidebar.write('If you have encounter issues, please contact at nattawadee.lee@gmail.com')
-    
-
-
-
-
-
-
-
-
