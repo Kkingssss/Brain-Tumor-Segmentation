@@ -4,7 +4,7 @@ import time
 from unittest import result
 import numpy as np
 
-#st.sidebar.image("logo.png")
+st.sidebar.image("https://ai-builders.github.io/images/logo-image.png")
 st.sidebar.header("AI BUILDERS")
 def load_image(image_file):
     img = Image.open(image_file)
